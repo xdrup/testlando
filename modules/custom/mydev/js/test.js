@@ -24,7 +24,6 @@
       };
       let arr = ['apple', 'netflix', 'google'];
     //  console.log(arr[1]);
-
       let swither = null;
       if (swither) {
         console.log("work");
