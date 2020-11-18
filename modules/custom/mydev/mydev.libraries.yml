@@ -1,0 +1,6 @@
+mydev-testjs:
+  js:
+    js/test.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once

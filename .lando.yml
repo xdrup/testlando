@@ -1,0 +1,6 @@
+name: my-first-drupal8-app
+recipe: drupal8
+config:
+  webroot: .
+  drupal: true
+  drush: "*"

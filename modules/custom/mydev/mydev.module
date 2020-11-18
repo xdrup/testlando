@@ -1,0 +1,20 @@
+<?php
+
+function mydev_element_info_alter(array &$types) {
+  if (isset($types['table'])) {
+  //  $types['table']['#attached']['library'][] = 'mydev/mydev-testjs';
+  }
+}
+
+function mydev_page_attachments(array &$attachments) {
+ // kint($attachments);
+
+  // Unconditionally attach an asset to the page.
+  $attachments['#attached']['library'][] = 'mydev/mydev-testjs';
+
+  // Conditionally attach an asset to the page.
+/*  if (!\Drupal::currentUser()
+    ->hasPermission('may pet kittens')) {
+    $attachments['#attached']['library'][] = 'core/jquery';
+  }*/
+}
