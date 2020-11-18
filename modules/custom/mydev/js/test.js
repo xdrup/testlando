@@ -53,7 +53,6 @@
 
       let myradar = $(context).find('.views-exposed-form p').once('testbehavior');
       if (myradar.length) {
-
         console.log(3 ** 7);
       }
 
